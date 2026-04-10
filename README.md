@@ -194,7 +194,7 @@ Tabel `gurus` memiliki field sebagai berikut:
 - Jalankan `composer dump-autoload`
 - Pastikan file `app/Models/Guru.php` ada
 
-### Error: "Table 'db_sekolah_roihan.gurus' doesn't exist"
+### Error: "Table 'db_sekolah_azka.gurus' doesn't exist"
 
 **Solusi:**
 - Jalankan migrasi: `php artisan migrate`
