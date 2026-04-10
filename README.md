@@ -18,11 +18,9 @@ Sebelum memulai, pastikan Anda telah menginstal:
 Buka terminal/command prompt dan jalankan:
 
 ```bash
-git clone https://github.com/USERNAME/crud-guru.git
+git clone https://github.com/7zenArd/crud-guru.git
 cd crud-guru
 ```
-
-Ganti `USERNAME` dengan username GitHub Anda.
 
 ### 2. Instal Dependencies
 
@@ -54,13 +52,13 @@ php artisan key:generate
 
 ### 5. Konfigurasi Database
 
-Edit file `.env` dan sesuaikan konfigurasi database sesuai dengan setup lokal Anda:
+Edit file `.env` dan sesuaikan konfigurasi database sesuai dengan setup database lokal Anda:
 
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=db_sekolah_roihan
+DB_DATABASE=db_sekolah_azka
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -77,7 +75,7 @@ DB_PASSWORD=
 Buka MySQL client atau phpMyAdmin, lalu buat database:
 
 ```sql
-CREATE DATABASE IF NOT EXISTS db_sekolah_roihan;
+CREATE DATABASE IF NOT EXISTS db_sekolah_azka;
 ```
 
 Atau gunakan artisan command:
@@ -212,7 +210,7 @@ Tabel `gurus` memiliki field sebagai berikut:
 
 Project ini bebas digunakan untuk keperluan pendidikan dan komersial.
 
-## 👨‍💻 Author Ardinata
+## 👨‍💻 Author 7zenArd
 
 Dibuat untuk Ujian Remedial Kompetensi Keahlian (UKK) RPL 2026
 
